@@ -2,10 +2,10 @@ package com.dam2.calculator;
 
 import com.dam2.calculator.ops.OpResta;
 import com.dam2.calculator.ops.OpSuma;
-
+import com.dam2.calculator.ops.OpDivision;
 public class OperationRouter {
 
-    private static final String OPS_LINE = "Operaciones: suma, resta";
+    private static final String OPS_LINE = "Operaciones: suma, resta, divicion";
 
     public static String help() {
         return OPS_LINE + "\n" +
@@ -17,6 +17,7 @@ public class OperationRouter {
         switch (op.trim().toLowerCase()) {
             case "suma": return OpSuma.run(input);
             case "resta": return OpResta.run(input);
+            case "division": return OpDivision.run(input);
 
             default: return "Operación no reconocida. Escribe 'help'.";
             
