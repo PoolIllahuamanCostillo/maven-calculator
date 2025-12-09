@@ -1,6 +1,5 @@
 package com.dam2.calculator;
 
-
 import java.util.Scanner;
 
 public class App {
@@ -26,5 +25,6 @@ public class App {
             System.out.println("salida> " + out);
         }
         System.out.println("Bye!");
+        sc.close();
     }
 }
