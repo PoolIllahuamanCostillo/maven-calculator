@@ -7,10 +7,14 @@ import com.dam2.calculator.ops.OpMax;
 >>>>>>> main
 import com.dam2.calculator.ops.OpResta;
 import com.dam2.calculator.ops.OpSuma;
-
+import com.dam2.calculator.ops.OpDivision;
 public class OperationRouter {
 
+<<<<<<< HEAD
+    private static final String OPS_LINE = "Operaciones: suma, resta, divicion";
+=======
     private static final String OPS_LINE = "Operaciones: suma, resta, Maximo";
+>>>>>>> main
 
     public static String help() {
         return OPS_LINE + "\n" +
@@ -23,7 +27,12 @@ public class OperationRouter {
             case "suma": return OpSuma.run(input);
             case "resta": return OpResta.run(input);
 <<<<<<< HEAD
+<<<<<<< HEAD
             case "minimo": return OpMinimo.run(input);
+=======
+            case "division": return OpDivision.run(input);
+
+>>>>>>> main
 =======
             case "maximo": return OpMax.run(input);
 >>>>>>> main
