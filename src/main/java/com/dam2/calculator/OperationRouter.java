@@ -1,6 +1,10 @@
 package com.dam2.calculator;
 
+<<<<<<< HEAD
+import com.dam2.calculator.ops.OpMinimo;
+=======
 import com.dam2.calculator.ops.OpMax;
+>>>>>>> main
 import com.dam2.calculator.ops.OpResta;
 import com.dam2.calculator.ops.OpSuma;
 import com.dam2.calculator.ops.OpDivision;
@@ -23,8 +27,12 @@ public class OperationRouter {
             case "suma": return OpSuma.run(input);
             case "resta": return OpResta.run(input);
 <<<<<<< HEAD
+<<<<<<< HEAD
+            case "minimo": return OpMinimo.run(input);
+=======
             case "division": return OpDivision.run(input);
 
+>>>>>>> main
 =======
             case "maximo": return OpMax.run(input);
 >>>>>>> main
